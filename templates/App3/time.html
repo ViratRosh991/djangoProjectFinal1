@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{%load static%}
+
+<head>
+    <link href ="{%static 'css/App3.css'%}" rel="stylesheet" />
+    <link href ="{%static 'images/gohan.jpg'%}" rel="stylesheet" />
+    <link href ="{%static 'video/Down_Down_Duppa_-_Race_Gurram.mp4'%}" rel="stylesheet" />
+    <link href ="{%static 'audio/Blast Baby.mp3'%}" rel="stylesheet" />
+
+<meta charset="UTF-8">
+<title>Time</title>
+    <style>
+        /*body{ background-image:url("https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg");}*/
+
+       body { background-image: url("gohan.jpg");
+              background-color: lightgray; }
+
+    </style>
+
+</head>
+<Body>
+<!--<Body background="https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg">-->
+
+    <h2>Current Date&Time:</h2>
+    <center><span id="h3">{{cd}}</span></center>
+    <div>
+        <div id="div1">
+            <img src="{%static 'images/gohan.jpg'%}"  />
+        </div>
+        <hr />
+
+        <div id="div2">
+        <audio controls>
+            <center><source src="{%static 'audio/Blast Baby.mp3'%}" type="audio/mp3"></center>
+        </audio>
+        </div>
+        <hr />
+
+        <div id="div3">
+        <video controls>
+            <source src="{%static 'video/Down_Down_Duppa_-_Race_Gurram.mp4'%}" type="video/mp4">
+        </video>
+        </div>
+        <hr />
+
+        <div id="div4">
+        <video controls>
+            <source src="https://www.youtube.com/watch?v=_yNXh-HcRHY" type="video">
+        </video>
+        </div>
+
+        <video>
+            <source src="https://youtu.be/watch?v=mNuhKUOD_A0" type="video">
+
+        </video>
+
+    </div>
+</Body>
+</html>
+
