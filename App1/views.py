@@ -3,7 +3,7 @@ import time
 # Create your views here.
 def f1(req):
     ct = time.ctime()
-    print("Current Date&Time:",ct)
+    print("Current Date & Time:",ct)
     ss = """
     <html>
     <head>
